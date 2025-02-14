@@ -8,11 +8,11 @@ Este es un proyecto básico de CRUD (Crear, Leer, Actualizar, Eliminar) utilizan
 - Contacto
   
 ## Requisitos
-- Antes de comenzar, asegúrate de tener instalado lo siguiente:
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
   - PHP 7.x o superior
   - MySQL Server
   - XAMPP o cualquier otro servidor web compatible con PHP y MySQL
-  - 
+  
 ## Configuración
 ### 1. Clonar el Repositorio
 Clona este repositorio en tu máquina local usando Git:
@@ -65,7 +65,7 @@ La guía de usuario está disponible en formato PDF y se llama "Documentación d
 La documentación técnica está disponible en formato HTML.
 - Para acceder a ella, abre el archivo index.html ubicado en la carpeta docs con cualquier navegador web.
 
-# Contacto
+## Contacto
 - Si tienes alguna pregunta o problema, no dudes en contactarme:
-Nombre: Alex Bordón Rosa
-Email: alexbordonrosa@gmail.com
+  - Nombre: Alex Bordón Rosa
+  - Email: alexbordonrosa@gmail.com

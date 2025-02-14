@@ -1,0 +1,233 @@
+\doxysection{Alumno Class Reference}
+\hypertarget{class_alumno}{}\label{class_alumno}\index{Alumno@{Alumno}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_alumno_af4f2a945c2171aa6c36aa2a0c731b907}{\+\_\+\+\_\+construct}} (\$id, \$nombres, \$apellidos, \$estado)
+\item 
+\mbox{\hyperlink{class_alumno_a87cc4b12b8023c266ae5e8c607c710e8}{get\+Id}} ()
+\item 
+\mbox{\hyperlink{class_alumno_ab59e14686cb6a361e240e6b77d856980}{set\+Id}} (\$id)
+\item 
+\mbox{\hyperlink{class_alumno_aae7f3ed7fb942d42a0c522108badb5ac}{get\+Nombres}} ()
+\item 
+\mbox{\hyperlink{class_alumno_a1473c01cfe9811803b873ac36d71fb8b}{set\+Nombres}} (\$nombres)
+\item 
+\mbox{\hyperlink{class_alumno_a133b3a9cc14c9762e4c177573c3cc8a5}{get\+Apellidos}} ()
+\item 
+\mbox{\hyperlink{class_alumno_a3b945b9d7e5828a2745cd11140c8cf61}{set\+Apellidos}} (\$apellidos)
+\item 
+\mbox{\hyperlink{class_alumno_acc2b440f632a64fd0465bf971cdaa243}{get\+Estado}} ()
+\item 
+\mbox{\hyperlink{class_alumno_a62677b097f61d37c8e08c141ebf7ca12}{set\+Estado}} (\$estado)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_alumno_a5788a0cadfb29597f51a88d45dea1d29}{save}} (\$alumno)
+\item 
+static \mbox{\hyperlink{class_alumno_ac3dbfb445ba0f07c9d86d1af7db41c89}{all}} ()
+\item 
+static \mbox{\hyperlink{class_alumno_af574c62889ca52c957a2dc0479abbc8d}{search\+By\+Id}} (\$id)
+\item 
+static \mbox{\hyperlink{class_alumno_a751eebda2499b27e01cfec525ea02f95}{update}} (\$alumno)
+\item 
+static \mbox{\hyperlink{class_alumno_a8beb899871bed62a807029e64de73002}{delete}} (\$id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase \doxylink{class_alumno}{Alumno}
+
+Esta clase representa a un alumno y contiene métodos para gestionar su información en la base de datos. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_alumno_af4f2a945c2171aa6c36aa2a0c731b907}\index{Alumno@{Alumno}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_alumno_af4f2a945c2171aa6c36aa2a0c731b907} 
+Alumno\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$id}{, }\item[{}]{\$nombres}{, }\item[{}]{\$apellidos}{, }\item[{}]{\$estado}{}\end{DoxyParamCaption})}
+
+Constructor de la clase \doxylink{class_alumno}{Alumno}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & ID del alumno. \\
+\hline
+string & {\em \$nombres} & Nombres del alumno. \\
+\hline
+string & {\em \$apellidos} & Apellidos del alumno. \\
+\hline
+int & {\em \$estado} & Estado del alumno (1 para activo, 0 para inactivo). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_alumno_ac3dbfb445ba0f07c9d86d1af7db41c89}\index{Alumno@{Alumno}!all@{all}}
+\index{all@{all}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{all()}{all()}}
+{\footnotesize\ttfamily \label{class_alumno_ac3dbfb445ba0f07c9d86d1af7db41c89} 
+static Alumno\+::all (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Obtiene todos los alumnos de la base de datos.
+
+\begin{DoxyReturn}{Returns}
+\doxylink{class_alumno}{Alumno}\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\Hypertarget{class_alumno_a8beb899871bed62a807029e64de73002}\index{Alumno@{Alumno}!delete@{delete}}
+\index{delete@{delete}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily \label{class_alumno_a8beb899871bed62a807029e64de73002} 
+static Alumno\+::delete (\begin{DoxyParamCaption}\item[{}]{\$id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Elimina un alumno de la base de datos.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & ID del alumno a eliminar. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_alumno_a133b3a9cc14c9762e4c177573c3cc8a5}\index{Alumno@{Alumno}!getApellidos@{getApellidos}}
+\index{getApellidos@{getApellidos}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{getApellidos()}{getApellidos()}}
+{\footnotesize\ttfamily \label{class_alumno_a133b3a9cc14c9762e4c177573c3cc8a5} 
+Alumno\+::get\+Apellidos (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Obtiene los apellidos del alumno.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_alumno_acc2b440f632a64fd0465bf971cdaa243}\index{Alumno@{Alumno}!getEstado@{getEstado}}
+\index{getEstado@{getEstado}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{getEstado()}{getEstado()}}
+{\footnotesize\ttfamily \label{class_alumno_acc2b440f632a64fd0465bf971cdaa243} 
+Alumno\+::get\+Estado (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Obtiene el estado del alumno.
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{class_alumno_a87cc4b12b8023c266ae5e8c607c710e8}\index{Alumno@{Alumno}!getId@{getId}}
+\index{getId@{getId}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily \label{class_alumno_a87cc4b12b8023c266ae5e8c607c710e8} 
+Alumno\+::get\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Obtiene el ID del alumno.
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\Hypertarget{class_alumno_aae7f3ed7fb942d42a0c522108badb5ac}\index{Alumno@{Alumno}!getNombres@{getNombres}}
+\index{getNombres@{getNombres}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{getNombres()}{getNombres()}}
+{\footnotesize\ttfamily \label{class_alumno_aae7f3ed7fb942d42a0c522108badb5ac} 
+Alumno\+::get\+Nombres (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Obtiene los nombres del alumno.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{class_alumno_a5788a0cadfb29597f51a88d45dea1d29}\index{Alumno@{Alumno}!save@{save}}
+\index{save@{save}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily \label{class_alumno_a5788a0cadfb29597f51a88d45dea1d29} 
+static Alumno\+::save (\begin{DoxyParamCaption}\item[{}]{\$alumno}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Guarda un alumno en la base de datos.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\doxylink{class_alumno}{Alumno} & {\em \$alumno} & Objeto \doxylink{class_alumno}{Alumno} a guardar. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_alumno_af574c62889ca52c957a2dc0479abbc8d}\index{Alumno@{Alumno}!searchById@{searchById}}
+\index{searchById@{searchById}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{searchById()}{searchById()}}
+{\footnotesize\ttfamily \label{class_alumno_af574c62889ca52c957a2dc0479abbc8d} 
+static Alumno\+::search\+By\+Id (\begin{DoxyParamCaption}\item[{}]{\$id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Busca un alumno por su ID.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & ID del alumno a buscar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{class_alumno}{Alumno} 
+\end{DoxyReturn}
+\Hypertarget{class_alumno_a3b945b9d7e5828a2745cd11140c8cf61}\index{Alumno@{Alumno}!setApellidos@{setApellidos}}
+\index{setApellidos@{setApellidos}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{setApellidos()}{setApellidos()}}
+{\footnotesize\ttfamily \label{class_alumno_a3b945b9d7e5828a2745cd11140c8cf61} 
+Alumno\+::set\+Apellidos (\begin{DoxyParamCaption}\item[{}]{\$apellidos}{}\end{DoxyParamCaption})}
+
+Establece los apellidos del alumno.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$apellidos} & Apellidos del alumno. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_alumno_a62677b097f61d37c8e08c141ebf7ca12}\index{Alumno@{Alumno}!setEstado@{setEstado}}
+\index{setEstado@{setEstado}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{setEstado()}{setEstado()}}
+{\footnotesize\ttfamily \label{class_alumno_a62677b097f61d37c8e08c141ebf7ca12} 
+Alumno\+::set\+Estado (\begin{DoxyParamCaption}\item[{}]{\$estado}{}\end{DoxyParamCaption})}
+
+Establece el estado del alumno.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$estado} & Estado del alumno (1 para activo, 0 para inactivo). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_alumno_ab59e14686cb6a361e240e6b77d856980}\index{Alumno@{Alumno}!setId@{setId}}
+\index{setId@{setId}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily \label{class_alumno_ab59e14686cb6a361e240e6b77d856980} 
+Alumno\+::set\+Id (\begin{DoxyParamCaption}\item[{}]{\$id}{}\end{DoxyParamCaption})}
+
+Establece el ID del alumno.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & ID del alumno. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_alumno_a1473c01cfe9811803b873ac36d71fb8b}\index{Alumno@{Alumno}!setNombres@{setNombres}}
+\index{setNombres@{setNombres}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{setNombres()}{setNombres()}}
+{\footnotesize\ttfamily \label{class_alumno_a1473c01cfe9811803b873ac36d71fb8b} 
+Alumno\+::set\+Nombres (\begin{DoxyParamCaption}\item[{}]{\$nombres}{}\end{DoxyParamCaption})}
+
+Establece los nombres del alumno.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$nombres} & Nombres del alumno. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_alumno_a751eebda2499b27e01cfec525ea02f95}\index{Alumno@{Alumno}!update@{update}}
+\index{update@{update}!Alumno@{Alumno}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{class_alumno_a751eebda2499b27e01cfec525ea02f95} 
+static Alumno\+::update (\begin{DoxyParamCaption}\item[{}]{\$alumno}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Actualiza un alumno en la base de datos.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\doxylink{class_alumno}{Alumno} & {\em \$alumno} & Objeto \doxylink{class_alumno}{Alumno} a actualizar. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Model/Alumno.\+php\end{DoxyCompactItemize}

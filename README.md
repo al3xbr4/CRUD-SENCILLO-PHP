@@ -1,11 +1,12 @@
 # CRUD Básico con PHP
 Este es un proyecto básico de CRUD (Crear, Leer, Actualizar, Eliminar) utilizando PHP y MySQL. Este README proporciona instrucciones paso a paso para configurar y ejecutar el proyecto.
 ## Tabla de Contenidos
-Requisitos
-Configuración
-Ejecución del Proyecto
-Documentación
-Contacto
+- Requisitos
+- Configuración
+- Ejecución del Proyecto
+- Documentación
+- Contacto
+  
 ## Requisitos
 - Antes de comenzar, asegúrate de tener instalado lo siguiente:
   - PHP 7.x o superior

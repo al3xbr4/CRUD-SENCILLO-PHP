@@ -16,9 +16,10 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 ## Configuración
 ### 1. Clonar el Repositorio
 Clona este repositorio en tu máquina local usando Git:
+````
 - git clone https://github.com/al3xbr4/CRUD-SENCILLO-PHP.git
 - cd CRUD-SENCILLO-PHP
-
+````
 ### 2. Crear la Base de Datos
 - Crea una base de datos en tu servidor MySQL. Puedes hacerlo usando phpMyAdmin o la línea de comandos:
 - CREATE DATABASE crud_db;
